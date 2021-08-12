@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityBillGUI", "Assignment2\ElectricityBillGUI.csproj", "{065BFF5B-69EB-4538-BA79-DBB6016A4F53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerData", "CustomerData\CustomerData.csproj", "{3206F164-F9D0-4D5D-9E34-B84525C02D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065BFF5B-69EB-4538-BA79-DBB6016A4F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065BFF5B-69EB-4538-BA79-DBB6016A4F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065BFF5B-69EB-4538-BA79-DBB6016A4F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065BFF5B-69EB-4538-BA79-DBB6016A4F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3206F164-F9D0-4D5D-9E34-B84525C02D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3206F164-F9D0-4D5D-9E34-B84525C02D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3206F164-F9D0-4D5D-9E34-B84525C02D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3206F164-F9D0-4D5D-9E34-B84525C02D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C4511E-1E6D-435F-8A36-716DF8D7E1DD}
+	EndGlobalSection
+EndGlobal

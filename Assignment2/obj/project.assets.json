@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CustomerData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CustomerData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerData/1.0.0": {
+      "type": "project",
+      "path": "../CustomerData/CustomerData.csproj",
+      "msbuildProject": "../CustomerData/CustomerData.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CustomerData >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fatemeh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fatemeh\\source\\repos\\Assignment2\\Assignment2\\ElectricityBillGUI.csproj",
+      "projectName": "ElectricityBillGUI",
+      "projectPath": "C:\\Users\\fatemeh\\source\\repos\\Assignment2\\Assignment2\\ElectricityBillGUI.csproj",
+      "packagesPath": "C:\\Users\\fatemeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fatemeh\\source\\repos\\Assignment2\\Assignment2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fatemeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\fatemeh\\source\\repos\\Assignment2\\CustomerData\\CustomerData.csproj": {
+              "projectPath": "C:\\Users\\fatemeh\\source\\repos\\Assignment2\\CustomerData\\CustomerData.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
